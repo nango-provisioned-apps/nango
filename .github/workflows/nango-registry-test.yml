@@ -1,0 +1,9 @@
+name: Nango Registry Test
+on:
+  workflow_dispatch: {}
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello from nango registry test"
+
