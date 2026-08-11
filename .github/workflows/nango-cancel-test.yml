@@ -1,8 +1,0 @@
-name: Nango Cancel Test
-on:
-  workflow_dispatch:
-jobs:
-  sleep:
-    runs-on: ubuntu-latest
-    steps:
-      - run: sleep 120
